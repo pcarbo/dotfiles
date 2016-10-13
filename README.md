@@ -1,2 +1,4 @@
 # dotfiles
-Files for setting up computing environment on my MacBook and compute clusters
+
+Files for setting up shell environment on my MacBook and the compute
+clusters I regularly use.
