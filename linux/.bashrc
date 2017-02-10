@@ -10,4 +10,7 @@ fi
 # User specific aliases and functions.
 alias mv='mv -iv'
 alias rm='rm -iv'
-alias cp='cp -v'
+alias cp='cp -iv'
+
+# Give group write permissions by default, and World no permissions.
+umask 0007
