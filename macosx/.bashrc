@@ -12,7 +12,7 @@ umask 77
 PATH=/opt/local/bin:/opt/local/sbin:$PATH
 
 # Added by Anaconda3 4.1.1 installer.
-export PATH="/Users/pcarbo/anaconda3/bin:$PATH"
+export PATH=/Users/pcarbo/anaconda3/bin:$PATH
 
 # My executables.
 PATH=/Users/pcarbo/bin:$PATH
