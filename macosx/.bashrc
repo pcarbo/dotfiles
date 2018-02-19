@@ -5,22 +5,34 @@ export SHELL=/bin/bash
 export TERM=xterm-color
 export EDITOR=/usr/bin/emacs
 
+# Locale.
+export LC_ALL=en_US.UTF-8
+
 # Set the default file permissions.
 umask 77
 
 # Macports.
 PATH=/opt/local/bin:/opt/local/sbin:$PATH
 
-# Added by Anaconda3 4.1.1 installer.
-export PATH=/Users/pcarbo/anaconda3/bin:$PATH
+# Anaconda3. By default, I deactivate Anaconda.
+# export PATH=/Users/pcarbo/anaconda3/bin:$PATH
+
+# Brews.
+PATH=/usr/local/Cellar/git/2.14.0/bin:$PATH
+
+# Mosek.
+export PATH=/Users/pcarbo/mosek/8/tools/platform/osx64x86/bin:$PATH
 
 # My executables.
 PATH=/Users/pcarbo/bin:$PATH
 export PATH
 
 # Multicore R.
-export LD_LIBRARY_PATH=/usr/lib64/atlas:/tmp/pcarbo/LALibs/lib
+export LD_LIBRARY_PATH=/usr/lib64/atlas:$LD_LIBRARY_PATH
 export R_PLASMA_NUM_THREADS=8
+
+# Intel OMP in R.
+export KMP_DUPLICATE_LIB_OK=TRUE
 
 # Set the prompt.
 source ~/.bash_prompt
