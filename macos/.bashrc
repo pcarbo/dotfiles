@@ -14,8 +14,8 @@ umask 77
 # Macports.
 PATH=/opt/local/bin:/opt/local/sbin:$PATH
 
-# Anaconda3. By default, I deactivate Anaconda.
-# export PATH=/Users/pcarbo/anaconda3/bin:$PATH
+# Anaconda3.
+export PATH=/Users/pcarbo/anaconda3/bin:$PATH
 
 # Brews.
 PATH=/usr/local/Cellar/git/2.14.0/bin:$PATH
